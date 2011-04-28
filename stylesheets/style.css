@@ -1,0 +1,143 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Container */
+#head-container {
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* Header */
+header {
+	margin-top:-10px;
+	background: url(../images/header-bg.jpg);
+	height: 100px;
+	margin-bottom: -20px;
+}
+
+#headback {
+	background: #000;
+	width: 100%;
+	height: 75px;
+	z-index: -2000;
+}
+
+#logo {
+	position: absolute;
+}
+
+#backhead {
+	background: #144165 ;
+	width: 100%;
+	height: 480px;
+}
+
+#bighead {
+	width: 1278px;
+	margin: auto;
+	background: url(../images/downhead-bg.jpg) no-repeat;
+	height: 500px;
+}
+
+/* Navigation bar */
+.white-text {
+	color: white;
+}
+
+nav {
+	float: right;
+	margin-top:40px;
+}
+
+nav {
+	padding: 0 0.7em;
+	white-space: nowrap;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.2em 0;
+}
+
+nav ul li {
+	padding: 0 5px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+
+nav ul li a:visited {
+	color: #09c;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Links */
+
+a {
+	color: #09c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #069;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #069;
+}
